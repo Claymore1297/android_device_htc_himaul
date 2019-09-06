@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_himaul.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_himaul-user \
+    lineage_himaul-userdebug \
+    lineage_himaul-eng
